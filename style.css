@@ -28,8 +28,6 @@ body {
     position: absolute;
 }
 
-
-
 .naBar {
     display: flex;
     justify-content: space-between;
@@ -62,6 +60,11 @@ body {
     border-radius: 0.1875rem;
     font-weight: 700;
     border-color: rgba(0, 0, 0, 0);
+}
+.sign a{
+    text-decoration: none;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
 }
 
 .superClass {
@@ -159,6 +162,7 @@ body {
     font-size: 0.8rem;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgb(119, 116, 116);
+    color: #ccc9ca;
 
 }
 
@@ -213,15 +217,15 @@ body {
 .sectionContainer img {
     position: relative;
     z-index: 10;
-    width: 30vw;
+    width: 480px;
 }
 
 .sectionContainer video {
-    top: 90px;
+    top: 76px;
     position: absolute;
-    left: 75px;
+    left: 64px;
     right: 0;
-    height: 12.4vw;
+    height: 196px;
 }
 
 .styleee {
@@ -271,7 +275,7 @@ body {
   
 }
 .netflixFaq h3{
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 20px;
     font-family: "Martel Sans", sans-serif;
     font-weight: 400;
@@ -292,4 +296,346 @@ body {
 }
 .superClass1 button{
     margin: 0px;
+}
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color:#777;
+    background-color: #000000;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight:400 ;
+    margin-bottom: 30px;
+}
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .lang{
+        color: #fff;
+        background-color: transparent;
+        border: 0.5px solid rgb(85, 80, 80);
+        padding: 6px 36px 6px 34px;
+        text-align: center;
+        border-radius: 4px;
+        position: relative;
+        width: 125px;
+}
+.copywrite{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px ;
+    font-weight: bold;
+}
+.dropdown {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 90px;
+    height: 70px;
+    font-size: 12px;
+    margin-left: -39px;
+    width:125px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.dropdown ul {
+    list-style: none;
+    margin: 0;
+}
+
+.dropdown li {
+    padding: 6px;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+
+.dropdown li:last-child {
+    border-bottom: none;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.lang:hover + .dropdown {
+    display: block;
+}
+
+.dropdown:hover {
+    display: block;
+}
+.padding{
+    padding: 50px;
+}
+@media screen and (max-width: 1200px){
+    .firstSection {
+        flex-wrap: wrap;
+        padding: 28px 0;
+    }
+    .divText>:first-child {
+        font-size: 32px;
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        text-align: center;
+    }
+    
+    .divText>:nth-child(2) {
+        font-size: 16px;
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+    .sectionContainer img {
+        position: relative;
+        z-index: 10;
+        width: 300px;
+    }
+    
+    .sectionContainer video {
+        top: 47px;
+        position: absolute;
+        left: 41px;
+        right: 0;
+        height: 122px;
+    }
+    .superClass> :first-child {
+        font-size: 30px;
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        text-align: center;
+        padding: 2px;
+        margin-top: -90px;
+    }
+    
+    .superClass> :nth-child(2) {
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        padding: 2px;
+    }
+    
+    .superClass> :nth-child(3) {
+        margin-top: 25px;
+        font-size: 14px;
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        padding: 2px;
+    }
+    .inputEmail {
+        border-radius: 6px;
+        margin-top: 16px;
+        width: 25%;
+        height: 10px;
+        padding: 20px 213px 30px 14px;
+        line-height: 1.5;
+        font-size: 0.8rem;
+        background-color: rgba(23, 23, 23, 0.7);
+        border: 1px solid rgb(119, 116, 116);
+        color: #ccc9ca;
+    
+    }
+    .btn {
+        bottom: 0;
+        left: 0;
+        border-style: solid;
+        border-width: 0.0625rem;
+        padding: 12px 16px;
+        letter-spacing: normal;
+        border: 0px;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        position: inherit;
+        font-size: 17.02px;
+        font-weight: 700;
+        /* min-height: 3%; */
+        background: rgb(229, 9, 20);
+        color: rgb(255, 255, 255);
+        width: 45%;
+    }
+    .netflixFaqbtn{
+        max-width: 77vw;
+    }
+    .Register {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .inputEmail {
+        border-radius: 6px;
+        margin-top: 16px;
+        width: 25%;
+        height: 10px;
+        padding: 20px 213px 30px 14px;
+        line-height: 1.5;
+        font-size: 0.8rem;
+        background-color: rgba(23, 23, 23, 0.7);
+        border: 1px solid rgb(119, 116, 116);
+        color: #ccc9ca;
+    
+    }
+    .netflixFaqbtn{
+        max-width: 77vw;
+        font-size: small;
+    }
+    .btn {
+        bottom: 0;
+        left: 0;
+        border-style: solid;
+        border-width: 0.0625rem;
+        padding: 12px 16px;
+        letter-spacing: normal;
+        border: 0px;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        position: inherit;
+        font-size: 17.02px;
+        font-weight: 700;
+        /* min-height: 3%; */
+        background: rgb(229, 9, 20);
+        color: rgb(255, 255, 255);
+        width: 45%;
+      
+        
+    }
+    .spacee {
+        margin-left: 11px;
+        font-weight: 300;
+    }
+    .padding12{
+        padding: 160px;
+       }
+}
+
+@media screen and (max-width: 400px){
+    .firstSection {
+        flex-wrap: wrap;
+        padding: 28px 0;
+    }
+    .divText>:first-child {
+        font-size: 28px;
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        text-align: center;
+    }
+    
+    .divText>:nth-child(2) {
+        font-size: 14px;
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+    .sectionContainer img {
+        position: relative;
+        z-index: 10;
+        width: 300px;
+    }
+    
+    .sectionContainer video {
+        top: 47px;
+        position: absolute;
+        left: 41px;
+        right: 0;
+        height: 122px;
+    }
+    .Register {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .inputEmail {
+        border-radius: 6px;
+        margin-top: 16px;
+        width: 25%;
+        height: 10px;
+        padding: 20px 213px 30px 14px;
+        line-height: 1.5;
+        font-size: 0.8rem;
+        background-color: rgba(23, 23, 23, 0.7);
+        border: 1px solid rgb(119, 116, 116);
+        color: #ccc9ca;
+    
+    }
+    .netflixFaqbtn{
+        max-width: 77vw;
+        font-size: small;
+    }
+    .btn {
+        bottom: 0;
+        left: 0;
+        border-style: solid;
+        border-width: 0.0625rem;
+        padding: 12px 16px;
+        letter-spacing: normal;
+        border: 0px;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        position: inherit;
+        font-size: 17.02px;
+        font-weight: 700;
+        /* min-height: 3%; */
+        background: rgb(229, 9, 20);
+        color: rgb(255, 255, 255);
+        width: 45%;
+      
+        
+    }
+    .spacee {
+        margin-left: 11px;
+        font-weight: 300;
+    }
+    .netflixFaq h2{
+        font-size: 32px;
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color: #fff;
+        text-align: center;
+        /* margin-bottom: 60px; */
+        margin-top: -100px;
+        /* margin-bottom: 100px; */
+    }
+   .padding12{
+    padding: 160px;
+   }
+   .btn1{
+    padding: 6px 12px;
+   }
+    
 }

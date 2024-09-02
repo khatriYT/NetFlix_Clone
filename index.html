@@ -5,23 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Netflix Pakistan</title>
+    <link rel="icon" type="image/x-icon" href="webassets/images/favicon.ico">
 </head>
 
 <body>
-
-
-
-
-
-
     <div class="main">
         <nav class="naBar">
             <div class="Container">
                 <img class="image_Length" src="webassets/images/logo.svg" alt="Netflix Logo">
             </div>
             <div class="box">
-                <button class="sign"> Sign In</button>
+                <button class="sign"><a href="HtmlFile/sign.html"> Sign In</a></button>
             </div>
         </nav>
 
@@ -69,11 +64,6 @@
     <section class="firstSection">
         <div class="sectionContainer">
             <img class="sectionImg" src="webassets/images/girlFrame.jpg" alt="">
-            <!-- <div>
-                <img height="200vh" src="webassets/images/boxshot.png" alt="">
-                <h3>Stranger Things</h3>
-                <span><Downloading class=""></Downloading></span>
-            </div> -->
         </div>
         <div class="divText">
             <span class="styleee">Download your shows
@@ -89,16 +79,17 @@
 
     <section class="firstSection">
         <div class="divText">
-            <span class="styleee">Watch
-                everywhere
+            <span>Watch Everywhere
+
             </span>
-            <span class="styleee">Stream unlimited movies and TV
-                shows on your phone, tablet, laptop, and TV.
+            <span class="styleee">Stream unlimited movies and TV shows on your
+                phone,tablet, laptop, and TV.
+
             </span>
         </div>
         <div class="sectionContainer">
             <img class="sectionImg" src="webassets/images/tv.png" alt="">
-            <!-- <video src="webassets/videos/video-tv-0819.m4v" autoplay muted loop></video> -->
+            <video src="webassets/videos/Video 53_assets_videos_video1.m4v" autoplay muted loop></video>
         </div>
     </section>
 
@@ -107,7 +98,6 @@
     <section class="firstSection">
         <div class="sectionContainer">
             <img class="sectionImg" src="webassets/images/kids.png" alt="">
-            <!-- <video src="webassets/videos/video-tv-0819.m4v" autoplay muted loop></video> -->
         </div>
         <div class="divText">
             <span class="styleee">Download your shows
@@ -120,6 +110,7 @@
     </section>
 
     <div class="secondpage "> </div>
+    <div class="padding"> </div>
 
     <section class="netflixFaq">
             <h2>Frequently Asked Questions</h2>
@@ -159,27 +150,49 @@
                         </button>
                     </div>
                 </div>
+            
     </section>
 
-    <div class="secondpage "> </div>
+    <div class="padding padding12"></div>
 
-    <footer class="footerContainer">
-        
-    <section class="firstSection">
-        <div class="sectionContainer">
-            <img class="sectionImg" src="webassets/images/kids.png" alt="">
-            <!-- <video src="webassets/videos/video-tv-0819.m4v" autoplay muted loop></video> -->
+    <div class="footer">
+        <h2>Questions? call 0000-000-000</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">Faq</a>
+                <a href="#">investors</a>
+                <a href="#">privacy</a>
+                <a href="#">speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookies Preference</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">only on Netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Centre</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
         </div>
-        <div class="divText">
-            <span class="styleee">Download your shows
-                to watch offline
-            </span>
-            <span class="styleee">Save your favorites easily and always have something
-                to watch.
-            </span>
-        </div>
-    </section>
-    </footer>
+        <button class="lang">English</button>
+            <div class="dropdown">
+                <ul>
+                    <li><a href="#"><b>English</a></li>
+                    <li><a href="#">Urdu</b></a></li>
+                </ul>
+            </div>
+        <p class="copywrite">Netflix Pakistan</p>
+    </div>
+    <script type="module" src="jsFile/firebaseCon.js"></script>
+    <script type="module" src="jsFile/sign.js"></script>
 </body>
 
 </html>
